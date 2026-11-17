@@ -72,3 +72,56 @@ h1, h2, h3 {
 .menu .atual {
     border-bottom-color: var(--fita);
 }
+
+.cartazes {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.cartaz {
+    padding: 40px;
+}
+
+.cartaz-principal {
+    background: var(--caixa-dagua);
+    color: var(--branco);
+    flex: 2;
+}
+
+.cartaz-principal h1 {
+    font-size: 132px;
+    max-width: 9ch;
+}
+
+.cartaz-lateral {
+    background: var(--fita);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.cartaz-lateral p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.botao {
+    background: var(--tinta);
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 16px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: var(--caixa-dagua);
+}
