@@ -180,3 +180,51 @@ h1, h2, h3 {
     align-items: center;
     gap: 8px;
 }
+
+.formulario label,
+.formulario legend {
+    font-weight: 700;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="date"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid var(--tinta);
+    background: var(--concreto);
+    font-family: var(--fonte-texto);
+    font-size: 17px;
+    color: var(--tinta);
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    outline: 3px solid var(--caixa-dagua);
+    outline-offset: 2px;
+    background: var(--branco);
+}
+
+.formulario textarea {
+    height: 140px;
+    resize: vertical;
+}
+
+.formulario .opcao label {
+    font-weight: 500;
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--caixa-dagua);
+}
