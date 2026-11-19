@@ -198,3 +198,30 @@ h1, h2, h3 {
     margin-top: 10px;
     font-weight: 700;
 }
+
+@media (max-width: 800px) {
+    .topo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        gap: 12px 24px;
+    }
+
+    .oficina, .rodape-colunas {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .titulo-pagina {
+        font-size: 96px;
+        overflow-wrap: anywhere;
+    }
+
+    .oficina .foto, .oficina-detalhes {
+        width: 100%;
+    }
+}
